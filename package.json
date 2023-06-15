@@ -3,9 +3,9 @@
   "private": true,
   "scripts": {},
   "dependencies": {
-    "@subsquid/archive-registry": "^2.1.7",
-    "@subsquid/evm-processor": "^0.4.0",
-    "@subsquid/evm-typegen": "2.1.1",
+    "@subsquid/archive-registry": "^3.0.0",
+    "@subsquid/evm-processor": "^1.0.0",
+    "@subsquid/evm-typegen": "3.2.0",
     "@subsquid/file-store-json": "^0.0.2",
     "dotenv": "^16.0.3",
     "ethers": "^5.7.2"
