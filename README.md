@@ -1,10 +1,10 @@
 # A squid that saves USDC Transfers to JSONL files
 
-This tiny blockchain indexer scrapes `Transfer` events emitted by the [USDC contract](https://etherscan.io/address/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) and saves the data in a file-based dataset in a local folder `./data`. It is built with the [Subsquid framework](https://subsquid.io), hence the term "squid".
+This tiny blockchain indexer scrapes `Transfer` events emitted by the [USDC contract](https://etherscan.io/address/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48) and saves the data in a file-based dataset in a local folder `./data`. It is built with the [Subsquid framework](https://sqd.dev), hence the term "squid".
 
-The squid uses [`@subsquid/file-store`](https://docs.subsquid.io/basics/store/file-store/) and [`@subsquid/file-store-json`](https://docs.subsquid.io/basics/store/file-store/csv-table/) packages to store the dataset. It outputs its data in the [JSONL](https://jsonlines.org) format instead of the plain JSON array used by default.
+The squid uses [`@subsquid/file-store`](https://docs.sqd.dev/en/sdk) and [`@subsquid/file-store-json`](https://docs.sqd.dev/en/sdk) packages to store the dataset. It outputs its data in the [JSONL](https://jsonlines.org) format instead of the plain JSON array used by default.
 
-Dependencies: NodeJS, [Squid CLI](https://docs.subsquid.io/squid-cli).
+Dependencies: NodeJS, [Squid CLI](https://docs.sqd.dev/en/sdk).
 
 To see it in action, spin up a *processor*, a process that ingests the data from the Ethereum Archive:
 
