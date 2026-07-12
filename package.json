@@ -7,7 +7,7 @@
     "@subsquid/evm-processor": "^1.8.2",
     "@subsquid/evm-typegen": "3.2.2",
     "@subsquid/file-store-json": "^1.2.0",
-    "dotenv": "^16.3.1",
+    "dotenv": "^17.0.0",
     "ethers": "^6.7.1"
   },
   "devDependencies": {
