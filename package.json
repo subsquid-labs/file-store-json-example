@@ -5,7 +5,7 @@
   "dependencies": {
     "@subsquid/archive-registry": "^3.2.0",
     "@subsquid/evm-processor": "^1.8.2",
-    "@subsquid/evm-typegen": "3.2.2",
+    "@subsquid/evm-typegen": "3.3.0",
     "@subsquid/file-store-json": "^1.2.0",
     "dotenv": "^16.3.1",
     "ethers": "^6.7.1"
